@@ -7,55 +7,78 @@
   <meta name="description" content="Beckham Lab at Newcastle University — structural biology of mycobacterial transport." />
   <style>
     :root {
-      --neutral-dark: #2f2f2f;
-      --neutral-light: #f5f5f5;
-      --accent: #555;
-      --muted: #6b7280;
+      --primary-dark: #1a1a3d;
+      --primary-light: #4b3f72;
+      --accent: #7f5af0;
+      --muted: #a0a0b0;
       --max-width: 1100px;
       --radius: 12px;
       --gap: 20px;
       font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     }
-    * { box-sizing: border-box }
-    body { margin: 0; background: linear-gradient(#ffffff, var(--neutral-light)); color: var(--neutral-dark); line-height: 1.5 }
-    a { color: var(--neutral-dark); text-decoration: none }
-    header { background: #fff; position: sticky; top: 0; z-index: 40; border-bottom: 1px solid #e6e6e6 }
-    .nav-inner { max-width: var(--max-width); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 18px }
-    .brand { display: flex; align-items: center; gap: 12px }
-    .brand .logo { width: 44px; height: 44px; border-radius: 6px; background: var(--neutral-dark); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700 }
-    .brand h1 { font-size: 18px; margin: 0 }
-    nav ul { display: flex; gap: 18px; list-style: none; margin: 0; padding: 0 }
-    nav li { font-size: 15px }
-    .container { max-width: var(--max-width); margin: 32px auto; padding: 0 18px }
-    .hero { display: grid; grid-template-columns: 1fr 380px; gap: var(--gap); align-items: center }
-    .hero-card { background: linear-gradient(180deg, #fff, #fafafa); padding: 36px; border-radius: var(--radius); box-shadow: 0 6px 18px rgba(0,0,0,0.06) }
-    .hero h2 { margin: 0 0 8px; font-size: 28px; color: var(--neutral-dark) }
-    .hero p { margin: 0; color: var(--muted) }
-    .cta-row { margin-top: 18px; display: flex; gap: 12px }
-    .btn { display: inline-block; padding: 10px 16px; border-radius: 10px; font-weight: 600 }
-    .btn-primary { background: var(--neutral-dark); color: #fff }
-    .btn-outline { border: 1px solid #ccc; color: var(--neutral-dark); background: transparent }
-    section { margin-top: 28px }
-    .cards { display: grid; grid-template-columns: repeat(3,1fr); gap: var(--gap) }
-    .card { background: #fff; padding: 18px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.04) }
-    .card h3 { margin-top: 0 }
-    .people-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px }
-    .person { display: flex; gap: 12px; align-items: center }
-    .avatar { width: 64px; height: 64px; border-radius: 12px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #fff; background: var(--neutral-dark) }
-    .person small { color: var(--muted) }
-    .list { display: flex; flex-direction: column; gap: 12px }
-    .list-item { background: #fff; padding: 12px; border-radius: 10px; border: 1px solid #eee }
-    footer { margin-top: 40px; padding: 28px 18px; background: #1f1f1f; color: #fff }
-    footer .inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; gap: 12px; align-items: center }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: linear-gradient(#f5f5f5, #ffffff); color: #1a1a3d; line-height: 1.5; }
+    a { color: inherit; text-decoration: none; }
+    
+    header { background: var(--primary-dark); color: #fff; position: sticky; top: 0; z-index: 40; }
+    .nav-inner { max-width: var(--max-width); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 18px; }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .brand .logo { width: 44px; height: 44px; border-radius: 6px; background: var(--accent); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; }
+    .brand h1 { font-size: 18px; margin: 0; }
+    nav ul { display: flex; gap: 18px; list-style: none; margin: 0; padding: 0; }
+    nav li { font-size: 15px; }
+    
+    .container { max-width: var(--max-width); margin: 32px auto; padding: 0 18px; }
+
+    /* Hero */
+    .hero { display: grid; grid-template-columns: 1fr; gap: var(--gap); align-items: center; background: linear-gradient(135deg, #4b3f72 0%, #7f5af0 100%); color: #fff; padding: 60px 18px; border-radius: var(--radius); margin-bottom: 32px; }
+    .hero h2 { margin: 0 0 12px; font-size: 32px; }
+    .hero p { margin: 0; font-size: 18px; color: rgba(255,255,255,0.85); }
+    .cta-row { margin-top: 18px; display: flex; gap: 12px; }
+    .btn { display: inline-block; padding: 10px 16px; border-radius: 10px; font-weight: 600; cursor: pointer; }
+    .btn-primary { background: #fff; color: var(--primary-dark); }
+    .btn-outline { border: 1px solid #fff; color: #fff; background: transparent; }
+
+    section { margin-top: 28px; }
+    .cards { display: grid; grid-template-columns: repeat(3,1fr); gap: var(--gap); }
+    .card { background: #fff; padding: 18px; border-radius: var(--radius); box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .card h3 { margin-top: 0; }
+
+    /* People */
+    .people-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; }
+    .person { display: flex; gap: 12px; align-items: center; }
+    .avatar { width: 64px; height: 64px; border-radius: 12px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #fff; background: var(--accent); }
+    .person small { color: var(--muted); }
+    .person-link { text-decoration:none; color:inherit; }
+    .person-link:hover { transform: scale(1.03); transition: transform 0.2s ease; }
+
+    /* List */
+    .list { display: flex; flex-direction: column; gap: 12px; }
+    .list-item { background: #fff; padding: 12px; border-radius: 10px; border: 1px solid #eee; }
+
+    /* Footer */
+    footer { margin-top: 40px; padding: 28px 18px; background: var(--primary-dark); color: #fff; }
+    footer .inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+    
+    /* Social hover */
     .social-link { display: flex; align-items: center; gap: 6px; text-decoration: none; color: inherit; transition: transform 0.2s ease, filter 0.2s ease; }
     .social-link:hover { transform: scale(1.1); filter: brightness(1.2); }
     .social-icon { flex-shrink: 0; }
-    .person-link { text-decoration:none; color:inherit; }
-    .person-link:hover { transform: scale(1.03); transition: transform 0.2s ease; }
-    @media (max-width:980px){ .hero { grid-template-columns: 1fr } .cards { grid-template-columns: repeat(2,1fr) } .people-grid { grid-template-columns: repeat(2,1fr) } }
-    @media (max-width:600px){ nav ul { display: none } .cards { grid-template-columns: 1fr } .people-grid { grid-template-columns: 1fr } .brand h1 { font-size: 15px } .nav-inner { padding: 12px } }
-    .muted { color: var(--muted) }
-    .small { font-size: 13px }
+
+    @media (max-width:980px){
+      .cards { grid-template-columns: repeat(2,1fr); }
+      .people-grid { grid-template-columns: repeat(2,1fr); }
+    }
+    @media (max-width:600px){
+      nav ul { display: none; }
+      .cards { grid-template-columns: 1fr; }
+      .people-grid { grid-template-columns: 1fr; }
+      .brand h1 { font-size: 15px; }
+      .nav-inner { padding: 12px; }
+    }
+
+    .muted { color: var(--muted); }
+    .small { font-size: 13px; }
   </style>
 </head>
 <body>
@@ -84,13 +107,11 @@
 
   <main class="container" id="home">
     <div class="hero">
-      <div class="hero-card">
-        <h2 id="tagline">Using structural biology to understand transport across the mycobacterial membrane</h2>
-        <p class="muted">[Short intro paragraph goes here – replace with your own text.]</p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="#research">Our Research</a>
-          <a class="btn btn-outline" href="#people">Meet the Team</a>
-        </div>
+      <h2>Using structural biology to understand transport across the mycobacterial membrane</h2>
+      <p class="muted">[Short intro paragraph goes here – replace with your own text.]</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#research">Our Research</a>
+        <a class="btn btn-outline" href="#people">Meet the Team</a>
       </div>
     </div>
 
@@ -109,13 +130,6 @@
       </div>
     </section>
 
-    <section id="publications">
-      <h2>Publications</h2>
-      <ul id="publication-list" class="list">
-        <li class="list-item">Loading publications...</li>
-      </ul>
-    </section>
-
     <section id="people">
       <h2>People</h2>
       <div class="people-grid">
@@ -129,6 +143,7 @@
             </div>
           </div>
         </a>
+
         <a href="aaron.html" class="person-link">
           <div class="card person">
             <div class="avatar">AB</div>
@@ -138,6 +153,7 @@
             </div>
           </div>
         </a>
+
         <a href="harry.html" class="person-link">
           <div class="card person">
             <div class="avatar">CD</div>
@@ -150,16 +166,37 @@
       </div>
     </section>
 
+    <section id="publications">
+      <h2>Publications</h2>
+      <div class="list">
+        <div class="list-item">C25-modified rifamycin derivatives with improved activity against Mycobacterium abscessus — L Paulowski, KSH Beckham, MD Johansen, et al. PNAS nexus 1 (4), pgac130, 2022</div>
+        <div class="list-item">Crystal structures of WrbA, a spurious target of salicylidene acylhydrazide inhibitors — R Zambelloni, KSH Beckham, et al. Microbiology 168 (7), 001211, 2022</div>
+        <div class="list-item">Conserved and specialized functions of Type VII secretion systems in non-tuberculous mycobacteria — M Lagune, C Petit, FV Sotomayor, et al. Microbiology 167 (7), 001054, 2021</div>
+        <div class="list-item">Structure of the mycobacterial ESX-5 type VII secretion system pore complex — KSH Beckham, C Ritter, G Chojnowski, et al. Science advances 7 (26), eabg9923, 2021</div>
+        <div class="list-item">The pMy vector series: A versatile cloning platform for mycobacterial proteins — KSH Beckham, S Staack, M Wilmanns, et al. Protein Science 29 (12), 2528-2537, 2020</div>
+        <div class="list-item">Structure of the mycobacterial ESX-5 Type VII Secretion System hexameric pore complex — KSH Beckham, C Ritter, G Chojnowski, et al. bioRxiv 2020</div>
+        <div class="list-item">The ATPases of the mycobacterial type VII secretion system — TD Crosskey, KSH Beckham, M Wilmanns. Progress in Biophysics and Molecular Biology 152, 25-34, 2020</div>
+        <div class="list-item">An NAD+ phosphorylase toxin triggers Mycobacterium tuberculosis cell death — DM Freire, C Gutierrez, et al. Molecular cell 73 (6), 1282-1291.e8, 2019</div>
+        <div class="list-item">Structure of the mycobacterial ESX-5 type VII secretion system membrane complex — KSH Beckham, L Ciccarelli, CM Bunduc, et al. Nature microbiology 2 (6), 2017</div>
+        <div class="list-item">Signal regulatory protein alpha (SIRPα) regulates DC homeostasis — CL Scott, TFP Zangerle Murray, KSH Beckham, et al. European journal of immunology 44 (12), 3658-3668, 2014</div>
+        <div class="list-item">From screen to target: insights for anti-virulence compounds — KSH Beckham, AJ Roe. Front. Cell. Infect. Microbiol. 4, 139, 2014</div>
+        <div class="list-item">The metabolic enzyme AdhE controls the virulence of E. coli O157:H7 — KSH Beckham, JPR Connolly, JM Ritchie, et al. Molecular microbiology 93 (1), 199-211, 2014</div>
+        <div class="list-item">Express your LOV: an engineered flavoprotein as a reporter — JA Gawthorne, LE Reddick, SN Akpunarlieva, KSH Beckham, et al. PLOS ONE 7 (12), e52962, 2012</div>
+        <div class="list-item">The structure of an orthorhombic crystal form of thiol peroxidase — KSH Beckham, O Byron, AJ Roe, M Gabrielsen. Struct. Biol. and Cryst. Comm. 68 (5), 522-526, 2012</div>
+        <div class="list-item">FolX from Pseudomonas aeruginosa is octameric — M Gabrielsen, KSH Beckham, et al. FEBS letters 586 (8), 1160-1165, 2012</div>
+        <div class="list-item">Structural Characterisation of Tpx from Yersinia pseudotuberculosis — M Gabrielsen, KSH Beckham, et al. PLoS ONE 7 (2), e32217, 2012</div>
+        <div class="list-item">High-Throughput Methods for Protein Purification — M Gabrielsen, KSH Beckham, AJ Roe. Methods in cell biology 112, 93-110, 2012</div>
+        <div class="list-item">Identification of bacterial target proteins for salicylidene acylhydrazides — D Wang, CE Zetterström, M Gabrielsen, KSH Beckham, et al. J Biol Chem 286 (34), 29922-29931, 2011</div>
+        <div class="list-item">Expression, purification, crystallization of thiol peroxidase from Yersinia pseudotuberculosis — M Gabrielsen, CE Zetterström, D Wang, KSH Beckham, et al. Struct. Biol. and Cryst. Comm. 66 (12), 1606-1609, 2010</div>
+        <div class="list-item">Formate–nitrite transporters: Optimisation of expression — KSH Beckham, JA Potter, SE Unkles. Protein Expression and Purification 71 (2), 184-189, 2010</div>
+      </div>
+    </section>
+
     <section id="news">
       <h2>News & Events</h2>
       <div class="list">
-        <div class="list-item">
-          <strong>Fellowship awarded:</strong> Royal Society Research Fellowship
-          <div class="small muted">Sept 2024</div>
-        </div>
-        <div class="list-item">
-          [Add your next news or event here]
-        </div>
+        <div class="list-item"><strong>Fellowship awarded:</strong> Royal Society Research Fellowship <div class="small muted">Sept 2024</div></div>
+        <div class="list-item">[Add your next news or event here]</div>
       </div>
     </section>
 
@@ -168,17 +205,14 @@
       <div class="list">
         <div class="list-item" style="display:flex; align-items:center; gap:8px;">
           <a href="https://bsky.app/profile/kshbeckham.bsky.social" target="_blank" class="social-link">
-            <svg class="social-icon" width="24" height="24" viewBox="0 0 24 24" fill="#1DA1F2" xmlns="http://www.w3.org/2000/svg">
-              <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.28 4.28 0 0 0 1.88-2.37 8.56 8.56 0 0 1-2.7 1.03 4.27 4.27 0 0 0-7.29 3.9A12.13 12.13 0 0 1 3.15 4.7a4.27 4.27 0 0 0 1.32 5.7 4.23 4.23 0 0 1-1.93-.53v.05a4.27 4.27 0 0 0 3.42 4.18 4.29 4.29 0 0 1-1.92.07 4.27 4.27 0 0 0 3.99 2.97 8.56 8.56 0 0 1-5.3 1.83c-.34 0-.67-.02-1-.06a12.08 12.08 0 0 0 6.56 1.92c7.87 0 12.18-6.52 12.18-12.18 0-.19 0-.38-.01-.57A8.65 8.65 0 0 0 24 4.56a8.45 8.45 0 0 1-2.54.7z"/>
-            </svg>
+            <svg class="social-icon" width="24" height="24" fill="#1DA1F2" xmlns="http://www.w3.org/2000/svg"><path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.28 4.28 0 0 0 1.88-2.37 8.56 8.56 0 0 1-2.7 1.03 4.27 4.27 0 0 0-7.29 3.9A12.13 12.13 0 0 1 3.15 4.7a4.27 4.27 0 0 0 1.32 5.7 4.23 4.23 0 0 1-1.93-.53v.05a4.27 4.27 0 0 0 3.42 4.18 4.29 4.29 0 0 1-1.92.07 4.27 4.27 0 0 0 3.99 2.97 8.56 8.56 0 0 1-5.3 1.83c-.34 0-.67-.02-1-.06a12.08 12.08 0 0 0 6.56 1.92c7.87 0 12.18-6.52 12.18-12.18 0-.19 0-.38-.01-.57A8.65 8.65 0 0 0 24 4.56a8.45 8.45 0 0 1-2.54.7z"/></svg>
             @kshbeckham.bsky.social
           </a>
         </div>
+
         <div class="list-item" style="display:flex; align-items:center; gap:8px;">
           <a href="https://www.instagram.com/kshbeckham" target="_blank" class="social-link">
-            <svg class="social-icon" width="24" height="24" viewBox="0 0 24 24" fill="#C13584" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm10.5 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/>
-            </svg>
+            <svg class="social-icon" width="24" height="24" fill="#C13584" xmlns="http://www.w3.org/2000/svg"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm10.5 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/></svg>
             @kshbeckham
           </a>
         </div>
@@ -208,30 +242,6 @@
         }
       });
     });
-
-    // Load publications dynamically from JSON
-    fetch('assets/data/orcid-works.json')
-      .then(res => res.json())
-      .then(data => {
-        const list = document.getElementById('publication-list');
-        list.innerHTML = ''; // clear "loading"
-        if(data.group){
-          data.group.forEach(group => {
-            group.workSummary.forEach(work => {
-              const li = document.createElement('li');
-              li.className = 'list-item';
-              li.innerHTML = `<strong>${work.title.title.value}</strong> (${work.year ? work.year.value : 'n.d.'})`;
-              list.appendChild(li);
-            });
-          });
-        } else {
-          list.innerHTML = '<li class="list-item">No publications available.</li>';
-        }
-      })
-      .catch(err => {
-        console.error('Failed to load publications:', err);
-        document.getElementById('publication-list').innerHTML = '<li class="list-item">No publications available.</li>';
-      });
   </script>
 </body>
 </html>
