@@ -40,7 +40,6 @@
     .btn-primary { background: var(--neutral-dark); color: #fff }
     .btn-outline { border: 1px solid #ccc; color: var(--neutral-dark); background: transparent }
 
-    /* Sections */
     section { margin-top: 28px }
     .cards { display: grid; grid-template-columns: repeat(3,1fr); gap: var(--gap) }
     .card { background: #fff; padding: 18px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.04) }
@@ -58,6 +57,24 @@
     footer { margin-top: 40px; padding: 28px 18px; background: #1f1f1f; color: #fff }
     footer .inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; gap: 12px; align-items: center }
 
+    /* Social Media hover */
+    .social-link {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s ease, filter 0.2s ease;
+    }
+    .social-link:hover {
+      transform: scale(1.1);
+      filter: brightness(1.2);
+    }
+    .social-icon { flex-shrink: 0; }
+
+    .person-link { text-decoration:none; color:inherit; }
+    .person-link:hover { transform: scale(1.03); transition: transform 0.2s ease; }
+
     @media (max-width:980px){
       .hero { grid-template-columns: 1fr }
       .cards { grid-template-columns: repeat(2,1fr) }
@@ -70,6 +87,7 @@
       .brand h1 { font-size: 15px }
       .nav-inner { padding: 12px }
     }
+
     .muted { color: var(--muted) }
     .small { font-size: 13px }
   </style>
@@ -91,6 +109,7 @@
           <li><a href="#people">People</a></li>
           <li><a href="#research">Research</a></li>
           <li><a href="#news">News</a></li>
+          <li><a href="#social">Social Media</a></li>
         </ul>
       </nav>
     </div>
@@ -101,7 +120,6 @@
       <div class="hero-card">
         <h2 id="tagline">Using structural biology to understand transport across the mycobacterial membrane</h2>
         <p class="muted">[Short intro paragraph goes here – replace with your own text.]</p>
-
         <div class="cta-row">
           <a class="btn btn-primary" href="#research">Our Research</a>
           <a class="btn btn-outline" href="#people">Meet the Team</a>
@@ -124,39 +142,43 @@
       </div>
     </section>
 
-    <<section id="people">
-  <h2>People</h2>
-  <div class="people-grid">
-    <!-- Principal Investigator -->
-    <div class="card person">
-      <div class="avatar">KB</div>
-      <div>
-        <strong>Dr Kate Beckham</strong>
-        <div class="small muted">Principal Investigator</div>
-        <div class="small">Email: kate.beckham@newcastle.ac.uk</div>
-      </div>
-    </div>
+    <section id="people">
+      <h2>People</h2>
+      <div class="people-grid">
+        <a href="kate.html" class="person-link">
+          <div class="card person">
+            <div class="avatar">KB</div>
+            <div>
+              <strong>Dr Kate Beckham</strong>
+              <div class="small muted">Principal Investigator</div>
+              <div class="small">Email: kate.becham@newcastle.ac.uk</div>
+            </div>
+          </div>
+        </a>
 
-    <!-- PhD Student 1 -->
-    <div class="card person">
-      <div class="avatar">AB</div>
-      <div>
-        <strong>Aaron Scott</strong>
-        <div class="small muted">PhD Student</div>
-      </div>
-    </div>
+        <a href="alex.html" class="person-link">
+          <div class="card person">
+            <div class="avatar">AB</div>
+            <div>
+              <strong>Alex Brown</strong>
+              <div class="small muted">PhD Student</div>
+              <div class="small">Email: alex.brown@newcastle.ac.uk</div>
+            </div>
+          </div>
+        </a>
 
-    <!-- PhD Student 2 -->
-    <div class="card person">
-      <div class="avatar">CD</div>
-      <div>
-        <strong>Harry Flowerstrong>
-        <div class="small muted">PhD Student</div>
+        <a href="chloe.html" class="person-link">
+          <div class="card person">
+            <div class="avatar">CD</div>
+            <div>
+              <strong>Chloe Davis</strong>
+              <div class="small muted">PhD Student</div>
+              <div class="small">Email: chloe.davis@newcastle.ac.uk</div>
+            </div>
+          </div>
+        </a>
       </div>
-    </div>
-  </div>
-</section>
-
+    </section>
 
     <section id="news">
       <h2>News & Events</h2>
@@ -172,56 +194,33 @@
     </section>
 
     <section id="social">
-  <h2>Social Media</h2>
-  <div class="list">
-    <div class="list-item" style="display:flex; align-items:center; gap:8px;">
-      <!-- Bluesky Icon SVG -->
-      <a href="https://bsky.app/profile/kshbeckham.bsky.social" target="_blank" class="social-link">
-        <svg class="social-icon" width="24" height="24" viewBox="0 0 24 24" fill="#1DA1F2" xmlns="http://www.w3.org/2000/svg">
-          <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.28 4.28 0 0 0 1.88-2.37 8.56 8.56 0 0 1-2.7 1.03 4.27 4.27 0 0 0-7.29 3.9A12.13 12.13 0 0 1 3.15 4.7a4.27 4.27 0 0 0 1.32 5.7 4.23 4.23 0 0 1-1.93-.53v.05a4.27 4.27 0 0 0 3.42 4.18 4.29 4.29 0 0 1-1.92.07 4.27 4.27 0 0 0 3.99 2.97 8.56 8.56 0 0 1-5.3 1.83c-.34 0-.67-.02-1-.06a12.08 12.08 0 0 0 6.56 1.92c7.87 0 12.18-6.52 12.18-12.18 0-.19 0-.38-.01-.57A8.65 8.65 0 0 0 24 4.56a8.45 8.45 0 0 1-2.54.7z"/>
-        </svg>
-        @kshbeckham.bsky.social
-      </a>
-    </div>
+      <h2>Social Media</h2>
+      <div class="list">
+        <div class="list-item" style="display:flex; align-items:center; gap:8px;">
+          <a href="https://bsky.app/profile/kshbeckham.bsky.social" target="_blank" class="social-link">
+            <svg class="social-icon" width="24" height="24" viewBox="0 0 24 24" fill="#1DA1F2" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.28 4.28 0 0 0 1.88-2.37 8.56 8.56 0 0 1-2.7 1.03 4.27 4.27 0 0 0-7.29 3.9A12.13 12.13 0 0 1 3.15 4.7a4.27 4.27 0 0 0 1.32 5.7 4.23 4.23 0 0 1-1.93-.53v.05a4.27 4.27 0 0 0 3.42 4.18 4.29 4.29 0 0 1-1.92.07 4.27 4.27 0 0 0 3.99 2.97 8.56 8.56 0 0 1-5.3 1.83c-.34 0-.67-.02-1-.06a12.08 12.08 0 0 0 6.56 1.92c7.87 0 12.18-6.52 12.18-12.18 0-.19 0-.38-.01-.57A8.65 8.65 0 0 0 24 4.56a8.45 8.45 0 0 1-2.54.7z"/>
+            </svg>
+            @kshbeckham.bsky.social
+          </a>
+        </div>
 
-    <div class="list-item" style="display:flex; align-items:center; gap:8px;">
-      <!-- Instagram Icon SVG -->
-      <a href="https://www.instagram.com/kshbeckham" target="_blank" class="social-link">
-        <svg class="social-icon" width="24" height="24" viewBox="0 0 24 24" fill="#C13584" xmlns="http://www.w3.org/2000/svg">
-          <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm10.5 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/>
-        </svg>
-        @kshbeckham
-      </a>
-    </div>
-  </div>
+        <div class="list-item" style="display:flex; align-items:center; gap:8px;">
+          <a href="https://www.instagram.com/kshbeckham" target="_blank" class="social-link">
+            <svg class="social-icon" width="24" height="24" viewBox="0 0 24 24" fill="#C13584" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm10.5 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/>
+            </svg>
+            @kshbeckham
+          </a>
+        </div>
+      </div>
+    </section>
 
-  <style>
-    .social-link {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      text-decoration: none;
-      color: inherit;
-      transition: transform 0.2s ease, filter 0.2s ease;
-    }
-
-    .social-link:hover {
-      transform: scale(1.1);
-      filter: brightness(1.2);
-    }
-
-    .social-icon {
-      flex-shrink: 0;
-    }
-  </style>
-</section>
-
-
-    </section>    <footer>
+    <footer>
       <div class="inner">
         <div>
           <div style="font-weight:700">Beckham Lab — Newcastle University</div>
-          <div class="small muted">&copy; <span id="year"></span></div>
+          <div class="small muted">&copy; <span id="year">2025</span></div>
         </div>
         <div class="small">Site maintained by Kate Beckham • <a style="color:inherit;opacity:0.9" href="#">University policies</a></div>
       </div>
