@@ -41,10 +41,6 @@
     .btn-primary { background: var(--neutral-dark); color: #fff }
     .btn-outline { border: 1px solid #ccc; color: var(--neutral-dark); background: transparent }
 
-    .stats { display: flex; gap: 12px; margin-top: 18px }
-    .stat { background: #fff; padding: 12px; border-radius: 10px; flex: 1; text-align: center; border: 1px solid #eee }
-    .stat strong { display: block; font-size: 18px }
-
     /* Sections */
     section { margin-top: 28px }
     .cards { display: grid; grid-template-columns: repeat(3,1fr); gap: var(--gap) }
@@ -113,111 +109,7 @@
           <a class="btn btn-primary" href="#research">Our Research</a>
           <a class="btn btn-outline" href="#people">Meet the Team</a>
         </div>
-
-        <div class="stats">
-          <div class="stat"><small class="muted">Publications</small><strong>48</strong></div>
-          <div class="stat"><small class="muted">Previous Projects</small><strong>6</strong></div>
-          <div class="stat"><small class="muted">Active Projects</small><strong>6</strong></div>
-          <div class="stat"><small class="muted">Team Members</small><strong>12</strong></div>
-        </div>
       </div>
 
       <aside>
-        <div class="card" style="padding:18px;border-radius:12px">
-          <h3>Latest news</h3>
-          <div class="list">
-            <div class="list-item"><strong>Fellowship awarded:</strong> Royal Society Reserach Fellowship <div class="small muted">Sept 2024</div></div>
-            <a class="small" href="#news">View all news →</a>
-          </div>
-        </div>
-      </aside>
-    </div>
-
-    <section id="about">
-      <div class="card">
-        <h2>About the Lab</h2>
-        <p class="muted">[Add a paragraph or two describing the lab's goals, history, main techniques, and impact.]</p>
-      </div>
-    </section>
-
-    <section id="research">
-      <h2>Research</h2>
-      <div class="cards">
-        <div class="card"><h3>Project A</h3><p class="small muted">[Short description]</p></div>
-        <div class="card"><h3>Project B</h3><p class="small muted">[Short description]</p></div>
-      </div>
-    </section>
-
-    <section id="people">
-      <h2>People</h2>
-      <div class="people-grid">
-        <div class="card person">
-          <div class="avatar">KB</div>
-          <div>
-            <strong>Dr Kate Beckham</strong>
-            <div class="small muted">Principal Investigator</div>
-            <div class="small">Email: kate.becham@newcastle.ac.uk</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="publications">
-      <h2>Publications</h2>
-      <div class="list">
-        <div class="list-item">[Add your publications here]</div>
-      </div>
-    </section>
-
-    <section id="news">
-      <h2>News & Events</h2>
-      <div class="list">
-        <div class="list-item">[Add your news and events here]</div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <div class="card" style="display:grid;grid-template-columns:1fr 320px;gap:18px;align-items:start">
-        <div>
-          <p class="muted">For enquiries, prospective students and collaboration requests please email:</p>
-          <p><strong id="contact-email">kate.becham@newcastle.ac.uk</strong></p>
-          <h4>Location</h4>
-          <p class="small muted">[School / Institute], Biosciences Institue, Newcastle University<br>Newcastle upon Tyne, NE1 7RU</p>
-        </div>
-
-        <form style="background:#f9f9f9;padding:12px;border-radius:8px;border:1px solid #ddd">
-          <label class="small">Your name<div><input type="text" style="width:100%;padding:10px;border-radius:8px;border:1px solid #ccc"></div></label>
-          <label class="small" style="margin-top:8px">Your email<div><input type="email" style="width:100%;padding:10px;border-radius:8px;border:1px solid #ccc"></div></label>
-          <label class="small" style="margin-top:8px">Message<div><textarea rows="4" style="width:100%;padding:10px;border-radius:8px;border:1px solid #ccc"></textarea></div></label>
-          <div style="margin-top:8px"><button class="btn btn-primary" type="button">Send message</button></div>
-        </form>
-      </div>
-    </section>
-
-    <footer>
-      <div class="inner">
-        <div>
-          <div style="font-weight:700">Beckham Lab — Newcastle University</div>
-          <div class="small muted">&copy; <span id="year">2025</span></div>
-        </div>
-        <div class="small">Site maintained by Kate Beckham • <a style="color:inherit;opacity:0.9" href="#">University policies</a></div>
-      </div>
-    </footer>
-  </main>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-    document.querySelectorAll('a[href^="#"]').forEach(a => {
-      a.addEventListener('click', function(e) {
-        const id = this.getAttribute('href').slice(1);
-        const el = document.getElementById(id);
-        if (el) {
-          e.preventDefault();
-          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      });
-    });
-  </script>
-</body>
-</html>
+        <div class="card" style="padding:18px;border-radius:
