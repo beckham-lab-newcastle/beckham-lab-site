@@ -1,222 +1,213 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Beckham Lab — Newcastle University</title>
-  <meta name="description" content="Beckham Lab at Newcastle University — structural biology of mycobacterial transport." />
-  <style>
-    :root {
-      --neutral-dark: #2f2f2f;
-      --neutral-light: #f5f5f5;
-      --accent: #555;
-      --muted: #6b7280;
-      --max-width: 1100px;
-      --radius: 12px;
-      --gap: 20px;
-      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    }
-    * { box-sizing: border-box }
-    body { margin: 0; background: linear-gradient(#ffffff, var(--neutral-light)); color: var(--neutral-dark); line-height: 1.5 }
-    a { color: var(--neutral-dark); text-decoration: none }
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Beckham Lab — Newcastle University</title>
+<meta name="description" content="Beckham Lab at Newcastle University — structural biology of mycobacterial transport." />
+<style>
+:root {
+  --primary: #0f9d9a;
+  --neutral-dark: #2f2f2f;
+  --neutral-light: #f0f4f8;
+  --muted: #6b7280;
+  --card-bg: #ffffff;
+  --radius: 12px;
+  --gap: 20px;
+}
 
-    header { background: #fff; position: sticky; top: 0; z-index: 40; border-bottom: 1px solid #e6e6e6 }
-    .nav-inner { max-width: var(--max-width); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 18px }
-    .brand { display: flex; align-items: center; gap: 12px }
-    .brand .logo { width: 44px; height: 44px; border-radius: 6px; background: var(--neutral-dark); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700 }
-    .brand h1 { font-size: 18px; margin: 0 }
-    nav ul { display: flex; gap: 18px; list-style: none; margin: 0; padding: 0 }
-    nav li { font-size: 15px }
+* { box-sizing: border-box; }
 
-    .container { max-width: var(--max-width); margin: 32px auto; padding: 0 18px }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  line-height: 1.5;
+  background: linear-gradient(var(--neutral-light), #d9e2ec);
+  color: var(--neutral-dark);
+}
 
-    /* HERO + Sidebar */
-    .hero-container { display: grid; grid-template-columns: 1fr 320px; gap: var(--gap); align-items: start }
-    .hero-card { background: linear-gradient(180deg, #fff, #fafafa); padding: 36px; border-radius: var(--radius); box-shadow: 0 6px 18px rgba(0,0,0,0.06) }
-    
-    .sidebar { display: flex; flex-direction: column; gap: 18px; }
-    .card { background: #fff; padding: 18px; border-radius: var(--radius); box-shadow: 0 4px 14px rgba(0,0,0,0.04) }
-    .card h3 { margin-top: 0 }
+a { color: var(--primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
 
-    .cta-row { margin-top: 18px; display: flex; gap: 12px }
-    .btn { display: inline-block; padding: 10px 16px; border-radius: 10px; font-weight: 600 }
-    .btn-primary { background: var(--neutral-dark); color: #fff }
-    .btn-outline { border: 1px solid #ccc; color: var(--neutral-dark); background: transparent }
+header {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  border-bottom: 1px solid #e6e6e6;
+}
 
-    /* People */
-    .people-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 28px; }
-    .person { display: flex; gap: 12px; align-items: center }
-    .avatar { width: 64px; height: 64px; border-radius: 12px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #fff; background: var(--neutral-dark) }
-    .person small { color: var(--muted) }
-    .person-link { text-decoration:none; color:inherit; }
-    .person-link:hover { transform: scale(1.03); transition: transform 0.2s ease; }
+.nav-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+}
 
-    /* Lists */
-    .list { display: flex; flex-direction: column; gap: 12px }
-    .list-item { background: #fff; padding: 12px; border-radius: 10px; border: 1px solid #eee }
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand .logo {
+  width: 44px; height: 44px; border-radius: 6px;
+  background: var(--primary); color: #fff; display: flex;
+  align-items: center; justify-content: center; font-weight: 700;
+}
+.brand h1 { margin: 0; font-size: 18px; }
 
-    /* Social Media hover */
-    .social-link { display: flex; align-items: center; gap: 6px; text-decoration: none; color: inherit; transition: transform 0.2s ease, filter 0.2s ease; }
-    .social-link:hover { transform: scale(1.1); filter: brightness(1.2); }
-    .social-icon { flex-shrink: 0; }
+nav ul { display: flex; gap: 18px; list-style: none; margin: 0; padding: 0; }
+nav li { font-size: 15px; }
 
-    footer { margin-top: 40px; padding: 28px 18px; background: #1f1f1f; color: #fff }
-    footer .inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; gap: 12px; align-items: center }
+.container { max-width: 1100px; margin: 32px auto; padding: 0 18px; }
 
-    @media (max-width:980px){
-      .hero-container { grid-template-columns: 1fr }
-      .people-grid { grid-template-columns: repeat(2,1fr) }
-    }
-    @media (max-width:600px){
-      nav ul { display: none }
-      .people-grid { grid-template-columns: 1fr }
-      .brand h1 { font-size: 15px }
-      .nav-inner { padding: 12px }
-    }
+.hero {
+  background: var(--card-bg);
+  padding: 36px;
+  border-radius: var(--radius);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  margin-bottom: 32px;
+}
 
-    .muted { color: var(--muted) }
-    .small { font-size: 13px }
-  </style>
+.hero h2 { margin: 0 0 8px; font-size: 28px; color: var(--neutral-dark); }
+.hero p { margin: 0; color: var(--muted); }
+
+.btn { display: inline-block; padding: 10px 16px; border-radius: 10px; font-weight: 600; }
+.btn-primary { background: var(--primary); color: #fff; }
+.btn-outline { border: 1px solid var(--primary); color: var(--primary); background: transparent; }
+
+.cards { display: grid; grid-template-columns: repeat(2,1fr); gap: var(--gap); margin-top: 12px; }
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.people-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: var(--gap); margin-top:12px; }
+.person { display: flex; gap: 12px; align-items: center; }
+.avatar { width: 64px; height: 64px; border-radius: 12px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center; font-weight: 700;
+  color: #fff; background: var(--primary); }
+.person small { color: var(--muted); }
+
+.list { display: flex; flex-direction: column; gap: 12px; margin-top: 12px; }
+.list-item { background: var(--card-bg); padding: 12px; border-radius: 10px; border: 1px solid #eee; }
+
+aside { display: flex; flex-direction: column; gap: 20px; margin-top: 12px; }
+
+footer { margin-top: 40px; padding: 28px 18px; background: #1f1f1f; color: #fff; }
+footer .inner { max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+
+@media (max-width:980px){
+  .cards { grid-template-columns: 1fr; }
+  .people-grid { grid-template-columns: 1fr; }
+}
+</style>
 </head>
 <body>
-  <header>
-    <div class="nav-inner">
-      <div class="brand">
-        <div class="logo">BL</div>
-        <div>
-          <h1 id="lab-name">Beckham Lab</h1>
-          <div class="small muted">Newcastle University — [School / Institute]</div>
-        </div>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#people">People</a></li>
-          <li><a href="#research">Research</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <main class="container" id="home">
-    <div class="hero-container">
-      <div class="hero-card">
-        <h2 id="tagline">Using structural biology to understand transport across the mycobacterial membrane</h2>
-        <p class="muted">[Short intro paragraph goes here – replace with your own text.]</p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="#research">Our Research</a>
-          <a class="btn btn-outline" href="#people">Meet the Team</a>
-        </div>
+<header>
+  <div class="nav-inner">
+    <div class="brand">
+      <div class="logo">BL</div>
+      <div>
+        <h1>Beckham Lab</h1>
+        <div class="small muted">Newcastle University — [School / Institute]</div>
       </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#people">People</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#news">News</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-      <div class="sidebar">
-<!-- News Sidebar -->
-<div class="card">
-  <h3>News & Announcements</h3>
-  <div class="list">
-    <!-- Only the 5 most recent items -->
-    <div class="list-item">
-      <strong>Fellowship awarded:</strong> Royal Society Research Fellowship
-      <div class="small muted">Sept 2024</div>
-    </div>
-    <div class="list-item">
-      <strong>[Next most recent news]</strong>
-      <div class="small muted">[Date]</div>
-    </div>
-    <div class="list-item">
-      [News 3]
-    </div>
-    <div class="list-item">
-      [News 4]
-    </div>
-    <div class="list-item">
-      [News 5]
-    </div>
-    <div class="list-item">
-      <a href="news.html" style="text-decoration:underline;">See older news &rarr;</a>
+<main class="container" id="home">
+
+  <div class="hero">
+    <h2>Using structural biology to understand transport across the mycobacterial membrane</h2>
+    <p class="muted">[Short intro paragraph goes here – replace with your own text.]</p>
+    <div style="margin-top:16px;">
+      <a class="btn btn-primary" href="#research">Our Research</a>
+      <a class="btn btn-outline" href="#people">Meet the Team</a>
     </div>
   </div>
-</div>
 
-        <!-- Social Media -->
-        <div class="card">
-          <h3>Follow Us</h3>
-          <div class="list">
-            <div class="list-item" style="display:flex; align-items:center; gap:8px;">
-              <a href="https://bsky.app/profile/kshbeckham.bsky.social" target="_blank" class="social-link">
-                <svg class="social-icon" width="24" height="24" viewBox="0 0 24 24" fill="#1DA1F2" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.28 4.28 0 0 0 1.88-2.37 8.56 8.56 0 0 1-2.7 1.03 4.27 4.27 0 0 0-7.29 3.9A12.13 12.13 0 0 1 3.15 4.7a4.27 4.27 0 0 0 1.32 5.7 4.23 4.23 0 0 1-1.93-.53v.05a4.27 4.27 0 0 0 3.42 4.18 4.29 4.29 0 0 1-1.92.07 4.27 4.27 0 0 0 3.99 2.97 8.56 8.56 0 0 1-5.3 1.83c-.34 0-.67-.02-1-.06a12.08 12.08 0 0 0 6.56 1.92c7.87 0 12.18-6.52 12.18-12.18 0-.19 0-.38-.01-.57A8.65 8.65 0 0 0 24 4.56a8.45 8.45 0 0 1-2.54.7z"/>
-                </svg>
-                @kshbeckham.bsky.social
-              </a>
-            </div>
+  <section id="about">
+    <div class="card">
+      <h2>About the Lab</h2>
+      <p class="muted">[Add a paragraph or two describing the lab's goals, history, main techniques, and impact.]</p>
+    </div>
+  </section>
 
-            <div class="list-item" style="display:flex; align-items:center; gap:8px;">
-              <a href="https://www.instagram.com/kshbeckham" target="_blank" class="social-link">
-                <svg class="social-icon" width="24" height="24" viewBox="0 0 24 24" fill="#C13584" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm10.5 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/>
-                </svg>
-                @kshbeckham
-              </a>
-            </div>
-          </div>
+  <div style="display:grid; grid-template-columns:2fr 1fr; gap:20px; margin-top:32px;">
+    <!-- Left column -->
+    <div>
+      <section id="research">
+        <h2>Research</h2>
+        <div class="cards">
+          <div class="card"><h3>Project A</h3><p class="small muted">[Short description]</p></div>
+          <div class="card"><h3>Project B</h3><p class="small muted">[Short description]</p></div>
         </div>
-      </div>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+        <div class="list">
+          <div class="list-item">C25-modified rifamycin derivatives with improved activity against Mycobacterium abscessus — L Paulowski, KSH Beckham … 2022</div>
+          <div class="list-item">Crystal structures of WrbA … 2022</div>
+          <div class="list-item">Conserved and specialized functions of Type VII secretion … 2021</div>
+          <div class="list-item">Structure of the mycobacterial ESX-5 type VII secretion system pore complex … 2021</div>
+          <div class="list-item">The pMy vector series … 2020</div>
+        </div>
+      </section>
+
+      <section id="people">
+        <h2>People</h2>
+        <div class="people-grid">
+          <a href="kate.html" class="person-link">
+            <div class="card person"><div class="avatar">KB</div><div><strong>Dr Kate Beckham</strong><div class="small muted">Principal Investigator</div><div class="small">Email: kate.becham@newcastle.ac.uk</div></div></div>
+          </a>
+          <a href="aaron.html" class="person-link">
+            <div class="card person"><div class="avatar">AB</div><div><strong>Aaron Scott</strong><div class="small muted">PhD Student</div></div></div>
+          </a>
+          <a href="harry.html" class="person-link">
+            <div class="card person"><div class="avatar">CD</div><div><strong>Harry Flower</strong><div class="small muted">PhD Student</div></div></div>
+          </a>
+        </div>
+      </section>
     </div>
 
-    <!-- About -->
-    <section id="about">
+    <!-- Right sidebar -->
+    <aside>
       <div class="card">
-        <h2>About the Lab</h2>
-        <p class="muted">[Add a paragraph or two describing the lab's goals, history, main techniques, and impact.]</p>
+        <h3>News & Announcements</h3>
+        <div id="recent-news" class="list">
+          <div class="list-item"><strong>Fellowship awarded:</strong> Royal Society Research Fellowship <div class="small muted">Sept 2024</div></div>
+          <div class="list-item"><strong>New paper:</strong> [Title here] <div class="small muted">July 2024</div></div>
+          <div class="list-item"><strong>Conference talk:</strong> [Details] <div class="small muted">June 2024</div></div>
+          <div class="list-item"><strong>Grant awarded:</strong> [Funding agency] <div class="small muted">May 2024</div></div>
+          <div class="list-item"><strong>Lab open day:</strong> [Event details] <div class="small muted">April 2024</div></div>
+        </div>
       </div>
-    </section>
 
-    <!-- Research -->
-    <section id="research">
-      <h2>Research</h2>
-      <div class="cards">
-        <div class="card"><h3>Project A</h3><p class="small muted">[Short description]</p></div>
-        <div class="card"><h3>Project B</h3><p class="small muted">[Short description]</p></div>
+      <div class="card">
+        <h3>Social Media</h3>
+        <div class="list">
+          <div class="list-item"><a href="https://bsky.app/profile/kshbeckham.bsky.social" target="_blank">@kshbeckham.bsky.social</a></div>
+          <div class="list-item"><a href="https://www.instagram.com/kshbeckham" target="_blank">@kshbeckham</a></div>
+        </div>
       </div>
-    </section>
-
-    <!-- People -->
-    <section id="people">
-      <h2>People</h2>
-      <div class="people-grid">
-        <a href="kate.html" class="person-link">
-          <div class="card person">
-            <div class="avatar">KB</div>
-            <div>
-              <strong>Dr Kate Beckham</strong>
-              <div class="small muted">Principal Investigator</div>
-            </div>
-          </div>
-        </a>
-        <a href="aaron.html" class="person-link">
-          <div class="card person">
-            <div class="avatar">AB</div>
-            <div>
-              <strong>Aaron Scott</strong>
-              <div class="small muted">PhD Student</div>
-            </div>
-          </div>
-        </a>
-        <a href="harry.html" class="person-link">
-          <div class="card person">
-            <div class="avatar">CD</div>
-            <div>
-              <strong>Harry Flower</strong>
-              <div class="small muted">PhD Student</div>
-            </div>
-          </div>
-        </a>
-      </div>
-    </section>
-
-  </main>
+    </aside>
+  </div>
 
   <footer>
     <div class="inner">
@@ -228,18 +219,21 @@
     </div>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-    document.querySelectorAll('a[href^="#"]').forEach(a => {
-      a.addEventListener('click', function(e) {
-        const id = this.getAttribute('href').slice(1);
-        const el = document.getElementById(id);
-        if (el) {
-          e.preventDefault();
-          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      });
-    });
-  </script>
+</main>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', function(e) {
+    const id = this.getAttribute('href').slice(1);
+    const el = document.getElementById(id);
+    if (el) {
+      e.preventDefault();
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+</script>
+
 </body>
 </html>
