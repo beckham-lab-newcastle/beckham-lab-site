@@ -1,0 +1,2090 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activities:works path="/0000-0002-4929-6119/works" xmlns:internal="http://www.orcid.org/ns/internal" xmlns:education="http://www.orcid.org/ns/education" xmlns:distinction="http://www.orcid.org/ns/distinction" xmlns:deprecated="http://www.orcid.org/ns/deprecated" xmlns:other-name="http://www.orcid.org/ns/other-name" xmlns:membership="http://www.orcid.org/ns/membership" xmlns:error="http://www.orcid.org/ns/error" xmlns:common="http://www.orcid.org/ns/common" xmlns:record="http://www.orcid.org/ns/record" xmlns:personal-details="http://www.orcid.org/ns/personal-details" xmlns:keyword="http://www.orcid.org/ns/keyword" xmlns:email="http://www.orcid.org/ns/email" xmlns:external-identifier="http://www.orcid.org/ns/external-identifier" xmlns:funding="http://www.orcid.org/ns/funding" xmlns:preferences="http://www.orcid.org/ns/preferences" xmlns:address="http://www.orcid.org/ns/address" xmlns:invited-position="http://www.orcid.org/ns/invited-position" xmlns:work="http://www.orcid.org/ns/work" xmlns:history="http://www.orcid.org/ns/history" xmlns:employment="http://www.orcid.org/ns/employment" xmlns:qualification="http://www.orcid.org/ns/qualification" xmlns:service="http://www.orcid.org/ns/service" xmlns:person="http://www.orcid.org/ns/person" xmlns:activities="http://www.orcid.org/ns/activities" xmlns:researcher-url="http://www.orcid.org/ns/researcher-url" xmlns:peer-review="http://www.orcid.org/ns/peer-review" xmlns:bulk="http://www.orcid.org/ns/bulk" xmlns:research-resource="http://www.orcid.org/ns/research-resource">
+    <common:last-modified-date>2024-08-05T08:20:33.691Z</common:last-modified-date>
+    <activities:group>
+        <common:last-modified-date>2023-02-02T12:47:41.177Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1093/pnasnexus/pgac130</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1093/pnasnexus/pgac130</common:external-id-normalized>
+                <common:external-id-url>https://doi.org/10.1093/pnasnexus/pgac130</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>other-id</common:external-id-type>
+                <common:external-id-value>01fa3c32-47d2-4d67-b7e2-7f4e3d4a43a0</common:external-id-value>
+                <common:external-id-normalized transient="true">01fa3c32-47d2-4d67-b7e2-7f4e3d4a43a0</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="122873951" path="/0000-0002-4929-6119/work/122873951" visibility="public" display-index="1">
+            <common:created-date>2022-11-15T14:06:25.908Z</common:created-date>
+            <common:last-modified-date>2022-11-15T14:06:25.908Z</common:last-modified-date>
+            <common:source>
+                <common:source-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-orcid>
+                <common:source-name>Katherine Beckham</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>C25-modified rifamycin derivatives with improved activity against &lt;i&gt;Mycobacterium abscessus&lt;/i&gt;</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1093/pnasnexus/pgac130</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1093/pnasnexus/pgac130</common:external-id-normalized>
+                    <common:external-id-url>https://doi.org/10.1093/pnasnexus/pgac130</common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>issn</common:external-id-type>
+                    <common:external-id-value>2752-6542</common:external-id-value>
+                    <common:external-id-normalized transient="true">2752-6542</common:external-id-normalized>
+                    <common:external-id-url>https://portal.issn.org/resource/ISSN/2752-6542</common:external-id-url>
+                    <common:external-id-relationship>part-of</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://dx.doi.org/10.1093/pnasnexus/pgac130</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2022</common:year>
+                <common:month>09</common:month>
+                <common:day>03</common:day>
+            </common:publication-date>
+            <work:journal-title>PNAS Nexus</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="127909964" path="/0000-0002-4929-6119/work/127909964" visibility="public" display-index="0">
+            <common:created-date>2023-02-02T12:47:40.345Z</common:created-date>
+            <common:last-modified-date>2023-02-02T12:47:41.177Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/APP-CTGCBDHSQ6DS9UZ7</common:uri>
+                    <common:path>APP-CTGCBDHSQ6DS9UZ7</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Converis</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>C25-modified rifamycin derivatives with improved activity against Mycobacterium abscessus.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>other-id</common:external-id-type>
+                    <common:external-id-value>01fa3c32-47d2-4d67-b7e2-7f4e3d4a43a0</common:external-id-value>
+                    <common:external-id-normalized transient="true">01fa3c32-47d2-4d67-b7e2-7f4e3d4a43a0</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1093/pnasnexus/pgac130</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1093/pnasnexus/pgac130</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2022</common:year>
+                <common:month>09</common:month>
+                <common:day>28</common:day>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-07-25T18:14:42.691Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1099/mic.0.001211</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1099/mic.0.001211</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmid</common:external-id-type>
+                <common:external-id-value>35829699</common:external-id-value>
+                <common:external-id-normalized transient="true">35829699</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>other-id</common:external-id-type>
+                <common:external-id-value>7a92d78b-d5de-4fdb-9c3f-39027cee21f2</common:external-id-value>
+                <common:external-id-normalized transient="true">7a92d78b-d5de-4fdb-9c3f-39027cee21f2</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="116304276" path="/0000-0002-4929-6119/work/116304276" visibility="public" display-index="2">
+            <common:created-date>2022-07-25T08:46:04.513Z</common:created-date>
+            <common:last-modified-date>2022-07-25T18:14:42.691Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/APP-CTGCBDHSQ6DS9UZ7</common:uri>
+                    <common:path>APP-CTGCBDHSQ6DS9UZ7</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Converis</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Crystal structures of WrbA, a spurious target of the salicylidene acylhydrazide inhibitors of type III secretion in Gram-negative pathogens, and verification of improved specificity of next-generation compounds.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>other-id</common:external-id-type>
+                    <common:external-id-value>7a92d78b-d5de-4fdb-9c3f-39027cee21f2</common:external-id-value>
+                    <common:external-id-normalized transient="true">7a92d78b-d5de-4fdb-9c3f-39027cee21f2</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1099/mic.0.001211</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1099/mic.0.001211</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2022</common:year>
+                <common:month>07</common:month>
+                <common:day>01</common:day>
+            </common:publication-date>
+        </work:work-summary>
+        <work:work-summary put-code="116181099" path="/0000-0002-4929-6119/work/116181099" visibility="public" display-index="0">
+            <common:created-date>2022-07-21T18:11:45.244Z</common:created-date>
+            <common:last-modified-date>2022-07-21T18:11:45.244Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                    <common:path>0000-0002-9157-3431</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Europe PubMed Central</common:source-name>
+                <common:assertion-origin-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:assertion-origin-orcid>
+                <common:assertion-origin-name>Katherine Beckham</common:assertion-origin-name>
+            </common:source>
+            <work:title>
+                <common:title>Crystal structures of WrbA, a spurious target of the salicylidene acylhydrazide inhibitors of type III secretion in Gram-negative pathogens, and verification of improved specificity of next-generation compounds.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>35829699</common:external-id-value>
+                    <common:external-id-normalized transient="true">35829699</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1099/mic.0.001211</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1099/mic.0.001211</common:external-id-normalized>
+                    <common:external-id-url>https://doi.org/10.1099/mic.0.001211</common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/35829699</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2022</common:year>
+                <common:month>07</common:month>
+            </common:publication-date>
+            <work:journal-title>Microbiology (Reading, England)</work:journal-title>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-06-02T08:12:32.781Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1099/mic.0.001054</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1099/mic.0.001054</common:external-id-normalized>
+                <common:external-id-url>https://doi.org/10.1099/mic.0.001054</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>wosuid</common:external-id-type>
+                <common:external-id-value>000669825600002</common:external-id-value>
+                <common:external-id-normalized transient="true">000669825600002</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>other-id</common:external-id-type>
+                <common:external-id-value>0e75fe95-8cc9-46b7-b2af-fd0a41fb9877</common:external-id-value>
+                <common:external-id-normalized transient="true">0e75fe95-8cc9-46b7-b2af-fd0a41fb9877</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="96546811" path="/0000-0002-4929-6119/work/96546811" visibility="public" display-index="0">
+            <common:created-date>2021-07-05T17:20:38.425Z</common:created-date>
+            <common:last-modified-date>2022-06-01T15:03:56.559Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                    <common:path>0000-0001-9884-1913</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Crossref</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Conserved and specialized functions of Type VII secretion systems in non-tuberculous mycobacteria</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1099/mic.0.001054</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1099/mic.0.001054</common:external-id-normalized>
+                    <common:external-id-url>https://doi.org/10.1099/mic.0.001054</common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>https://doi.org/10.1099/mic.0.001054</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2021</common:year>
+                <common:month>08</common:month>
+                <common:day>17</common:day>
+            </common:publication-date>
+            <work:journal-title>Microbiology</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="102799761" path="/0000-0002-4929-6119/work/102799761" visibility="public" display-index="0">
+            <common:created-date>2021-11-08T20:06:21.744Z</common:created-date>
+            <common:last-modified-date>2022-06-02T08:12:32.781Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/APP-CTGCBDHSQ6DS9UZ7</common:uri>
+                    <common:path>APP-CTGCBDHSQ6DS9UZ7</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Converis</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Conserved and specialized functions of Type VII secretion systems in non-tuberculous mycobacteria.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>other-id</common:external-id-type>
+                    <common:external-id-value>0e75fe95-8cc9-46b7-b2af-fd0a41fb9877</common:external-id-value>
+                    <common:external-id-normalized transient="true">0e75fe95-8cc9-46b7-b2af-fd0a41fb9877</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1099/mic.0.001054</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1099/mic.0.001054</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>wosuid</common:external-id-type>
+                    <common:external-id-value>000669825600002</common:external-id-value>
+                    <common:external-id-normalized transient="true">000669825600002</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2021</common:year>
+                <common:month>07</common:month>
+                <common:day>31</common:day>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-06-01T15:37:54.926Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1101/2021.07.12.452042</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1101/2021.07.12.452042</common:external-id-normalized>
+                <common:external-id-url>https://doi.org/10.1101/2021.07.12.452042</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="96894964" path="/0000-0002-4929-6119/work/96894964" visibility="public" display-index="0">
+            <common:created-date>2021-07-13T06:15:00.283Z</common:created-date>
+            <common:last-modified-date>2022-06-01T15:37:54.926Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                    <common:path>0000-0001-9884-1913</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Crossref</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>C25-modified rifamycin derivatives with improved activity against Mycobacterium abscessus</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1101/2021.07.12.452042</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1101/2021.07.12.452042</common:external-id-normalized>
+                    <common:external-id-url>https://doi.org/10.1101/2021.07.12.452042</common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>https://doi.org/10.1101/2021.07.12.452042</common:url>
+            <work:type>other</work:type>
+            <common:publication-date>
+                <common:year>2021</common:year>
+                <common:month>07</common:month>
+                <common:day>12</common:day>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-06-02T07:33:08.232Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>wosuid</common:external-id-type>
+                <common:external-id-value>000669960200018</common:external-id-value>
+                <common:external-id-normalized transient="true">000669960200018</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1126/sciadv.abg9923</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1126/sciadv.abg9923</common:external-id-normalized>
+                <common:external-id-url>https://doi.org/10.1126/sciadv.abg9923</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>other-id</common:external-id-type>
+                <common:external-id-value>0784f8c1-743a-4e54-b37a-72d56508bf12</common:external-id-value>
+                <common:external-id-normalized transient="true">0784f8c1-743a-4e54-b37a-72d56508bf12</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="96092841" path="/0000-0002-4929-6119/work/96092841" visibility="public" display-index="0">
+            <common:created-date>2021-06-25T19:22:49.485Z</common:created-date>
+            <common:last-modified-date>2022-06-01T14:21:02.982Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                    <common:path>0000-0001-9884-1913</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Crossref</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Structure of the mycobacterial ESX-5 type VII secretion system pore complex</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1126/sciadv.abg9923</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1126/sciadv.abg9923</common:external-id-normalized>
+                    <common:external-id-url>https://doi.org/10.1126/sciadv.abg9923</common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>https://doi.org/10.1126/sciadv.abg9923</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2021</common:year>
+                <common:month>06</common:month>
+                <common:day>25</common:day>
+            </common:publication-date>
+            <work:journal-title>Science Advances</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="102400087" path="/0000-0002-4929-6119/work/102400087" visibility="public" display-index="0">
+            <common:created-date>2021-11-01T20:13:15.199Z</common:created-date>
+            <common:last-modified-date>2022-06-02T07:33:08.232Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/APP-CTGCBDHSQ6DS9UZ7</common:uri>
+                    <common:path>APP-CTGCBDHSQ6DS9UZ7</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Converis</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Structure of the mycobacterial ESX-5 type VII secretion system pore complex.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>other-id</common:external-id-type>
+                    <common:external-id-value>0784f8c1-743a-4e54-b37a-72d56508bf12</common:external-id-value>
+                    <common:external-id-normalized transient="true">0784f8c1-743a-4e54-b37a-72d56508bf12</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1126/sciadv.abg9923</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1126/sciadv.abg9923</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>wosuid</common:external-id-type>
+                    <common:external-id-value>000669960200018</common:external-id-value>
+                    <common:external-id-normalized transient="true">000669960200018</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2021</common:year>
+                <common:month>06</common:month>
+                <common:day>30</common:day>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2023-09-04T07:48:52.493Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>wosuid</common:external-id-type>
+                <common:external-id-value>000578723200001</common:external-id-value>
+                <common:external-id-normalized transient="true">000578723200001</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>other-id</common:external-id-type>
+                <common:external-id-value>94494b15-c09f-4bf1-9791-22e56e75cc6b</common:external-id-value>
+                <common:external-id-normalized transient="true">94494b15-c09f-4bf1-9791-22e56e75cc6b</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1002/pro.3962</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1002/pro.3962</common:external-id-normalized>
+                <common:external-id-url>https://doi.org/10.1002/pro.3962</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="81323139" path="/0000-0002-4929-6119/work/81323139" visibility="public" display-index="0">
+            <common:created-date>2020-10-02T10:26:58.463Z</common:created-date>
+            <common:last-modified-date>2023-09-04T07:48:52.493Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                    <common:path>0000-0001-9884-1913</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Crossref</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>The pMy vector series: A versatile cloning platform for the recombinant production of mycobacterial proteins in Mycobacterium smegmatis</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1002/pro.3962</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1002/pro.3962</common:external-id-normalized>
+                    <common:external-id-url>https://doi.org/10.1002/pro.3962</common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>https://doi.org/10.1002/pro.3962</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2020</common:year>
+                <common:month>12</common:month>
+            </common:publication-date>
+            <work:journal-title>Protein Science</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="102738647" path="/0000-0002-4929-6119/work/102738647" visibility="public" display-index="0">
+            <common:created-date>2021-11-07T20:10:53.929Z</common:created-date>
+            <common:last-modified-date>2022-06-02T08:06:25.792Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/APP-CTGCBDHSQ6DS9UZ7</common:uri>
+                    <common:path>APP-CTGCBDHSQ6DS9UZ7</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Converis</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>The pMy vector series: a versatile cloning platform for the recombinant production of mycobacterial proteins in Mycobacterium smegmatis.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>other-id</common:external-id-type>
+                    <common:external-id-value>94494b15-c09f-4bf1-9791-22e56e75cc6b</common:external-id-value>
+                    <common:external-id-normalized transient="true">94494b15-c09f-4bf1-9791-22e56e75cc6b</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1002/pro.3962</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1002/pro.3962</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>wosuid</common:external-id-type>
+                    <common:external-id-value>000578723200001</common:external-id-value>
+                    <common:external-id-normalized transient="true">000578723200001</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2020</common:year>
+                <common:month>10</common:month>
+                <common:day>02</common:day>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2024-08-05T08:20:33.691Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1101/2020.11.17.387225</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1101/2020.11.17.387225</common:external-id-normalized>
+                <common:external-id-url>https://doi.org/10.1101/2020.11.17.387225</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="83652711" path="/0000-0002-4929-6119/work/83652711" visibility="public" display-index="0">
+            <common:created-date>2020-11-18T09:01:23.076Z</common:created-date>
+            <common:last-modified-date>2024-08-05T08:20:33.691Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                    <common:path>0000-0001-9884-1913</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Crossref</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Structure of the mycobacterial ESX-5 Type VII Secretion System hexameric pore complex</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1101/2020.11.17.387225</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1101/2020.11.17.387225</common:external-id-normalized>
+                    <common:external-id-url>https://doi.org/10.1101/2020.11.17.387225</common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>https://doi.org/10.1101/2020.11.17.387225</common:url>
+            <work:type>preprint</work:type>
+            <common:publication-date>
+                <common:year>2020</common:year>
+                <common:month>11</common:month>
+                <common:day>17</common:day>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-12-08T20:08:23.188Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>other-id</common:external-id-type>
+                <common:external-id-value>3edf42fc-0520-4907-93b3-ca2784c7c02f</common:external-id-value>
+                <common:external-id-normalized transient="true">3edf42fc-0520-4907-93b3-ca2784c7c02f</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1016/j.pbiomolbio.2019.11.008</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1016/j.pbiomolbio.2019.11.008</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>wosuid</common:external-id-type>
+                <common:external-id-value>000528190200006</common:external-id-value>
+                <common:external-id-normalized transient="true">000528190200006</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmid</common:external-id-type>
+                <common:external-id-value>31765647</common:external-id-value>
+                <common:external-id-normalized transient="true">31765647</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="102028848" path="/0000-0002-4929-6119/work/102028848" visibility="public" display-index="3">
+            <common:created-date>2021-10-25T20:12:40.249Z</common:created-date>
+            <common:last-modified-date>2022-12-08T20:08:23.188Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/APP-CTGCBDHSQ6DS9UZ7</common:uri>
+                    <common:path>APP-CTGCBDHSQ6DS9UZ7</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Converis</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>The ATPases of the mycobacterial type VII secretion system: structural and mechanistic insights into secretion.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>other-id</common:external-id-type>
+                    <common:external-id-value>3edf42fc-0520-4907-93b3-ca2784c7c02f</common:external-id-value>
+                    <common:external-id-normalized transient="true">3edf42fc-0520-4907-93b3-ca2784c7c02f</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1016/j.pbiomolbio.2019.11.008</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1016/j.pbiomolbio.2019.11.008</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>wosuid</common:external-id-type>
+                    <common:external-id-value>000528190200006</common:external-id-value>
+                    <common:external-id-normalized transient="true">000528190200006</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <work:type>other</work:type>
+            <common:publication-date>
+                <common:year>2019</common:year>
+                <common:month>11</common:month>
+                <common:day>22</common:day>
+            </common:publication-date>
+        </work:work-summary>
+        <work:work-summary put-code="65383121" path="/0000-0002-4929-6119/work/65383121" visibility="public" display-index="0">
+            <common:created-date>2019-12-02T11:37:13.690Z</common:created-date>
+            <common:last-modified-date>2022-05-29T08:06:00.843Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                    <common:path>0000-0002-9157-3431</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Europe PubMed Central</common:source-name>
+                <common:assertion-origin-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:assertion-origin-orcid>
+                <common:assertion-origin-name>Katherine Beckham</common:assertion-origin-name>
+            </common:source>
+            <work:title>
+                <common:title>The ATPases of the mycobacterial type VII secretion system: structural and mechanistic insights into secretion.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>31765647</common:external-id-value>
+                    <common:external-id-normalized transient="true">31765647</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1016/j.pbiomolbio.2019.11.008</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1016/j.pbiomolbio.2019.11.008</common:external-id-normalized>
+                    <common:external-id-url>https://doi.org/10.1016/j.pbiomolbio.2019.11.008</common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/31765647</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2019</common:year>
+                <common:month>11</common:month>
+            </common:publication-date>
+            <work:journal-title>Progress in biophysics and molecular biology</work:journal-title>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-09-27T20:22:58.357Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1016/j.molcel.2019.01.028</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1016/j.molcel.2019.01.028</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>other-id</common:external-id-type>
+                <common:external-id-value>cfc35de6-997e-4d07-9da5-41a633fa3475</common:external-id-value>
+                <common:external-id-normalized transient="true">cfc35de6-997e-4d07-9da5-41a633fa3475</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>wosuid</common:external-id-type>
+                <common:external-id-value>000462029500020</common:external-id-value>
+                <common:external-id-normalized transient="true">000462029500020</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="55500953" path="/0000-0002-4929-6119/work/55500953" visibility="public" display-index="0">
+            <common:created-date>2019-03-20T11:48:41.887Z</common:created-date>
+            <common:last-modified-date>2022-09-27T20:22:58.357Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/APP-CTGCBDHSQ6DS9UZ7</common:uri>
+                    <common:path>APP-CTGCBDHSQ6DS9UZ7</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Converis</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>An NAD+ phosphorylase toxin triggers Mycobacterium tuberculosis cell death.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>other-id</common:external-id-type>
+                    <common:external-id-value>cfc35de6-997e-4d07-9da5-41a633fa3475</common:external-id-value>
+                    <common:external-id-normalized transient="true">cfc35de6-997e-4d07-9da5-41a633fa3475</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1016/j.molcel.2019.01.028</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1016/j.molcel.2019.01.028</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>wosuid</common:external-id-type>
+                    <common:external-id-value>000462029500020</common:external-id-value>
+                    <common:external-id-normalized transient="true">000462029500020</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2019</common:year>
+                <common:month>02</common:month>
+                <common:day>18</common:day>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-12-23T03:15:10.827Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>other-id</common:external-id-type>
+                <common:external-id-value>8813cfa4-50b4-470b-9482-27187cc8bc49</common:external-id-value>
+                <common:external-id-normalized transient="true">8813cfa4-50b4-470b-9482-27187cc8bc49</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>wosuid</common:external-id-type>
+                <common:external-id-value>000406000900011</common:external-id-value>
+                <common:external-id-normalized transient="true">000406000900011</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1038/nmicrobiol.2017.47</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1038/nmicrobiol.2017.47</common:external-id-normalized>
+                <common:external-id-url>https://doi.org/10.1038/nmicrobiol.2017.47</common:external-id-url>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="31767971" path="/0000-0002-4929-6119/work/31767971" visibility="public" display-index="0">
+            <common:created-date>2017-04-10T12:56:11.448Z</common:created-date>
+            <common:last-modified-date>2022-12-23T03:15:10.827Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0001-9884-1913</common:uri>
+                    <common:path>0000-0001-9884-1913</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Crossref</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Structure of the mycobacterial ESX-5 type VII secretion system membrane complex by single-particle analysis</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1038/nmicrobiol.2017.47</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1038/nmicrobiol.2017.47</common:external-id-normalized>
+                    <common:external-id-url>https://doi.org/10.1038/nmicrobiol.2017.47</common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>https://doi.org/10.1038/nmicrobiol.2017.47</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2017</common:year>
+                <common:month>04</common:month>
+                <common:day>10</common:day>
+            </common:publication-date>
+            <work:journal-title>Nature Microbiology</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="32020835" path="/0000-0002-4929-6119/work/32020835" visibility="public" display-index="0">
+            <common:created-date>2017-04-20T08:49:15.753Z</common:created-date>
+            <common:last-modified-date>2022-07-19T20:05:30.838Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/APP-CTGCBDHSQ6DS9UZ7</common:uri>
+                    <common:path>APP-CTGCBDHSQ6DS9UZ7</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Converis</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Structure of the mycobacterial ESX-5 type VII secretion system membrane complex by single-particle analysis.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>other-id</common:external-id-type>
+                    <common:external-id-value>8813cfa4-50b4-470b-9482-27187cc8bc49</common:external-id-value>
+                    <common:external-id-normalized transient="true">8813cfa4-50b4-470b-9482-27187cc8bc49</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1038/nmicrobiol.2017.47</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1038/nmicrobiol.2017.47</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>wosuid</common:external-id-type>
+                    <common:external-id-value>000406000900011</common:external-id-value>
+                    <common:external-id-normalized transient="true">000406000900011</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2017</common:year>
+                <common:month>04</common:month>
+                <common:day>10</common:day>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-09-27T20:18:01.214Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1002/eji.201444859</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1002/eji.201444859</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>wosuid</common:external-id-type>
+                <common:external-id-value>000346701200019</common:external-id-value>
+                <common:external-id-normalized transient="true">000346701200019</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmid</common:external-id-type>
+                <common:external-id-value>25236797</common:external-id-value>
+                <common:external-id-normalized transient="true">25236797</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>other-id</common:external-id-type>
+                <common:external-id-value>d7faf529-3d17-4ddb-afa8-aab34cd7d05d</common:external-id-value>
+                <common:external-id-normalized transient="true">d7faf529-3d17-4ddb-afa8-aab34cd7d05d</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="65383586" path="/0000-0002-4929-6119/work/65383586" visibility="public" display-index="1">
+            <common:created-date>2014-12-14T11:41:44.030Z</common:created-date>
+            <common:last-modified-date>2019-12-02T11:41:44.032Z</common:last-modified-date>
+            <common:source>
+                <common:source-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-orcid>
+                <common:source-name>Katherine Beckham</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Signal regulatory protein alpha (SIRPα) regulates the homeostasis of CD103(+) CD11b(+) DCs in the intestinal lamina propria.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>25236797</common:external-id-value>
+                    <common:external-id-normalized transient="true">25236797</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1002/eji.201444859</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1002/eji.201444859</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/25236797</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2014</common:year>
+                <common:month>12</common:month>
+            </common:publication-date>
+            <work:journal-title>European journal of immunology</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="14757307" path="/0000-0002-4929-6119/work/14757307" visibility="public" display-index="0">
+            <common:created-date>2014-12-14T08:42:58.137Z</common:created-date>
+            <common:last-modified-date>2022-05-24T01:12:09.372Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                    <common:path>0000-0002-9157-3431</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Europe PubMed Central</common:source-name>
+                <common:assertion-origin-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:assertion-origin-orcid>
+                <common:assertion-origin-name>Katherine Beckham</common:assertion-origin-name>
+            </common:source>
+            <work:title>
+                <common:title>Signal regulatory protein alpha (SIRPα) regulates the homeostasis of CD103(+) CD11b(+) DCs in the intestinal lamina propria.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>25236797</common:external-id-value>
+                    <common:external-id-normalized transient="true">25236797</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1002/eji.201444859</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1002/eji.201444859</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/25236797</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2014</common:year>
+                <common:month>12</common:month>
+            </common:publication-date>
+        </work:work-summary>
+        <work:work-summary put-code="38072620" path="/0000-0002-4929-6119/work/38072620" visibility="public" display-index="0">
+            <common:created-date>2017-10-27T04:22:29.731Z</common:created-date>
+            <common:last-modified-date>2022-09-27T20:18:01.214Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/APP-CTGCBDHSQ6DS9UZ7</common:uri>
+                    <common:path>APP-CTGCBDHSQ6DS9UZ7</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Converis</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Signal regulatory protein alpha (SIRPα) regulates the homeostasis of CD103(+) CD11b(+) DCs in the intestinal lamina propria.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>other-id</common:external-id-type>
+                    <common:external-id-value>d7faf529-3d17-4ddb-afa8-aab34cd7d05d</common:external-id-value>
+                    <common:external-id-normalized transient="true">d7faf529-3d17-4ddb-afa8-aab34cd7d05d</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1002/eji.201444859</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1002/eji.201444859</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>wosuid</common:external-id-type>
+                    <common:external-id-value>000346701200019</common:external-id-value>
+                    <common:external-id-normalized transient="true">000346701200019</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2014</common:year>
+                <common:month>12</common:month>
+                <common:day>01</common:day>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-10-04T20:17:34.811Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>other-id</common:external-id-type>
+                <common:external-id-value>cacd30ef-23fe-4fe0-bfe1-eb398f5d5531</common:external-id-value>
+                <common:external-id-normalized transient="true">cacd30ef-23fe-4fe0-bfe1-eb398f5d5531</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmid</common:external-id-type>
+                <common:external-id-value>24846743</common:external-id-value>
+                <common:external-id-normalized transient="true">24846743</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>wosuid</common:external-id-type>
+                <common:external-id-value>000339481300014</common:external-id-value>
+                <common:external-id-normalized transient="true">000339481300014</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1111/mmi.12651</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1111/mmi.12651</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="65383574" path="/0000-0002-4929-6119/work/65383574" visibility="public" display-index="1">
+            <common:created-date>2014-12-14T11:41:18.959Z</common:created-date>
+            <common:last-modified-date>2019-12-02T11:41:18.961Z</common:last-modified-date>
+            <common:source>
+                <common:source-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-orcid>
+                <common:source-name>Katherine Beckham</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>The metabolic enzyme AdhE controls the virulence of Escherichia coli O157:H7.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>24846743</common:external-id-value>
+                    <common:external-id-normalized transient="true">24846743</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1111/mmi.12651</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1111/mmi.12651</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/24846743</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2014</common:year>
+                <common:month>07</common:month>
+            </common:publication-date>
+            <work:journal-title>Molecular microbiology</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="14757308" path="/0000-0002-4929-6119/work/14757308" visibility="public" display-index="0">
+            <common:created-date>2014-12-14T08:42:58.142Z</common:created-date>
+            <common:last-modified-date>2022-05-24T01:12:09.377Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                    <common:path>0000-0002-9157-3431</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Europe PubMed Central</common:source-name>
+                <common:assertion-origin-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:assertion-origin-orcid>
+                <common:assertion-origin-name>Katherine Beckham</common:assertion-origin-name>
+            </common:source>
+            <work:title>
+                <common:title>The metabolic enzyme AdhE controls the virulence of Escherichia coli O157:H7.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>24846743</common:external-id-value>
+                    <common:external-id-normalized transient="true">24846743</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1111/mmi.12651</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1111/mmi.12651</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/24846743</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2014</common:year>
+                <common:month>07</common:month>
+            </common:publication-date>
+        </work:work-summary>
+        <work:work-summary put-code="38072689" path="/0000-0002-4929-6119/work/38072689" visibility="public" display-index="0">
+            <common:created-date>2017-10-27T04:28:17.789Z</common:created-date>
+            <common:last-modified-date>2022-10-04T20:17:34.811Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/APP-CTGCBDHSQ6DS9UZ7</common:uri>
+                    <common:path>APP-CTGCBDHSQ6DS9UZ7</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Converis</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>The metabolic enzyme AdhE controls the virulence of Escherichia coli O157:H7.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>other-id</common:external-id-type>
+                    <common:external-id-value>cacd30ef-23fe-4fe0-bfe1-eb398f5d5531</common:external-id-value>
+                    <common:external-id-normalized transient="true">cacd30ef-23fe-4fe0-bfe1-eb398f5d5531</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1111/mmi.12651</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1111/mmi.12651</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>wosuid</common:external-id-type>
+                    <common:external-id-value>000339481300014</common:external-id-value>
+                    <common:external-id-normalized transient="true">000339481300014</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2014</common:year>
+                <common:month>07</common:month>
+                <common:day>01</common:day>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-08-23T20:01:40.233Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>wosuid</common:external-id-type>
+                <common:external-id-value>000345501300020</common:external-id-value>
+                <common:external-id-normalized transient="true">000345501300020</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmid</common:external-id-type>
+                <common:external-id-value>25325019</common:external-id-value>
+                <common:external-id-normalized transient="true">25325019</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.3389/fcimb.2014.00139</common:external-id-value>
+                <common:external-id-normalized transient="true">10.3389/fcimb.2014.00139</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>other-id</common:external-id-type>
+                <common:external-id-value>2fc76b19-1197-4122-a349-59d18f79ff1f</common:external-id-value>
+                <common:external-id-normalized transient="true">2fc76b19-1197-4122-a349-59d18f79ff1f</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmc</common:external-id-type>
+                <common:external-id-value>PMC4179734</common:external-id-value>
+                <common:external-id-normalized transient="true">4179734</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="65383591" path="/0000-0002-4929-6119/work/65383591" visibility="public" display-index="1">
+            <common:created-date>2014-12-14T11:42:03.947Z</common:created-date>
+            <common:last-modified-date>2019-12-02T11:42:03.951Z</common:last-modified-date>
+            <common:source>
+                <common:source-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-orcid>
+                <common:source-name>Katherine Beckham</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>From screen to target: insights and approaches for the development of anti-virulence compounds.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>25325019</common:external-id-value>
+                    <common:external-id-normalized transient="true">25325019</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC4179734</common:external-id-value>
+                    <common:external-id-normalized transient="true">4179734</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.3389/fcimb.2014.00139</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.3389/fcimb.2014.00139</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/25325019</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2014</common:year>
+            </common:publication-date>
+            <work:journal-title>Frontiers in cellular and infection microbiology</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="14757309" path="/0000-0002-4929-6119/work/14757309" visibility="public" display-index="0">
+            <common:created-date>2014-12-14T08:42:58.145Z</common:created-date>
+            <common:last-modified-date>2022-05-24T01:12:09.383Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                    <common:path>0000-0002-9157-3431</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Europe PubMed Central</common:source-name>
+                <common:assertion-origin-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:assertion-origin-orcid>
+                <common:assertion-origin-name>Katherine Beckham</common:assertion-origin-name>
+            </common:source>
+            <work:title>
+                <common:title>From screen to target: insights and approaches for the development of anti-virulence compounds.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>25325019</common:external-id-value>
+                    <common:external-id-normalized transient="true">25325019</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC4179734</common:external-id-value>
+                    <common:external-id-normalized transient="true">4179734</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.3389/fcimb.2014.00139</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.3389/fcimb.2014.00139</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/25325019</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2014</common:year>
+            </common:publication-date>
+        </work:work-summary>
+        <work:work-summary put-code="38072608" path="/0000-0002-4929-6119/work/38072608" visibility="public" display-index="0">
+            <common:created-date>2017-10-27T04:18:36.454Z</common:created-date>
+            <common:last-modified-date>2022-08-23T20:01:40.233Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/APP-CTGCBDHSQ6DS9UZ7</common:uri>
+                    <common:path>APP-CTGCBDHSQ6DS9UZ7</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Converis</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>From screen to target: insights and approaches for the development of anti-virulence compounds.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>other-id</common:external-id-type>
+                    <common:external-id-value>2fc76b19-1197-4122-a349-59d18f79ff1f</common:external-id-value>
+                    <common:external-id-normalized transient="true">2fc76b19-1197-4122-a349-59d18f79ff1f</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.3389/fcimb.2014.00139</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.3389/fcimb.2014.00139</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>wosuid</common:external-id-type>
+                    <common:external-id-value>000345501300020</common:external-id-value>
+                    <common:external-id-normalized transient="true">000345501300020</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <work:type>other</work:type>
+            <common:publication-date>
+                <common:year>2014</common:year>
+                <common:month>10</common:month>
+                <common:day>01</common:day>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-05-24T01:12:09.388Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>pmc</common:external-id-type>
+                <common:external-id-value>PMC3374505</common:external-id-value>
+                <common:external-id-normalized transient="true">3374505</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmid</common:external-id-type>
+                <common:external-id-value>22691780</common:external-id-value>
+                <common:external-id-normalized transient="true">22691780</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1107/S1744309112011487</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1107/s1744309112011487</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="65383611" path="/0000-0002-4929-6119/work/65383611" visibility="public" display-index="1">
+            <common:created-date>2014-12-14T11:42:34.695Z</common:created-date>
+            <common:last-modified-date>2019-12-02T11:42:34.698Z</common:last-modified-date>
+            <common:source>
+                <common:source-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-orcid>
+                <common:source-name>Katherine Beckham</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>The structure of an orthorhombic crystal form of a 'forced reduced' thiol peroxidase reveals lattice formation aided by the presence of the affinity tag.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>22691780</common:external-id-value>
+                    <common:external-id-normalized transient="true">22691780</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC3374505</common:external-id-value>
+                    <common:external-id-normalized transient="true">3374505</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1107/S1744309112011487</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1107/s1744309112011487</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/22691780</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2012</common:year>
+                <common:month>05</common:month>
+            </common:publication-date>
+            <work:journal-title>Section F, Structural biology and crystallization communications</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="14757310" path="/0000-0002-4929-6119/work/14757310" visibility="public" display-index="0">
+            <common:created-date>2014-12-14T08:42:58.149Z</common:created-date>
+            <common:last-modified-date>2022-05-24T01:12:09.388Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                    <common:path>0000-0002-9157-3431</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Europe PubMed Central</common:source-name>
+                <common:assertion-origin-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:assertion-origin-orcid>
+                <common:assertion-origin-name>Katherine Beckham</common:assertion-origin-name>
+            </common:source>
+            <work:title>
+                <common:title>The structure of an orthorhombic crystal form of a 'forced reduced' thiol peroxidase reveals lattice formation aided by the presence of the affinity tag.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>22691780</common:external-id-value>
+                    <common:external-id-normalized transient="true">22691780</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC3374505</common:external-id-value>
+                    <common:external-id-normalized transient="true">3374505</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1107/S1744309112011487</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1107/s1744309112011487</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/22691780</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2012</common:year>
+                <common:month>05</common:month>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-05-25T17:21:24.784Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>pmid</common:external-id-type>
+                <common:external-id-value>22575651</common:external-id-value>
+                <common:external-id-normalized transient="true">22575651</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1016/j.febslet.2012.03.031</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1016/j.febslet.2012.03.031</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmc</common:external-id-type>
+                <common:external-id-value>PMC3405516</common:external-id-value>
+                <common:external-id-normalized transient="true">3405516</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="65383620" path="/0000-0002-4929-6119/work/65383620" visibility="public" display-index="1">
+            <common:created-date>2017-05-21T11:42:55.027Z</common:created-date>
+            <common:last-modified-date>2019-12-02T11:42:55.031Z</common:last-modified-date>
+            <common:source>
+                <common:source-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-orcid>
+                <common:source-name>Katherine Beckham</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>FolX from Pseudomonas aeruginosa is octameric in both crystal and solution.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>22575651</common:external-id-value>
+                    <common:external-id-normalized transient="true">22575651</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC3405516</common:external-id-value>
+                    <common:external-id-normalized transient="true">3405516</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1016/j.febslet.2012.03.031</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1016/j.febslet.2012.03.031</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/22575651</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2012</common:year>
+                <common:month>04</common:month>
+            </common:publication-date>
+            <work:journal-title>FEBS letters</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="32991895" path="/0000-0002-4929-6119/work/32991895" visibility="public" display-index="0">
+            <common:created-date>2017-05-21T11:13:34.466Z</common:created-date>
+            <common:last-modified-date>2022-05-25T17:21:24.784Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                    <common:path>0000-0002-9157-3431</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Europe PubMed Central</common:source-name>
+                <common:assertion-origin-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:assertion-origin-orcid>
+                <common:assertion-origin-name>Katherine Beckham</common:assertion-origin-name>
+            </common:source>
+            <work:title>
+                <common:title>FolX from Pseudomonas aeruginosa is octameric in both crystal and solution.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>22575651</common:external-id-value>
+                    <common:external-id-normalized transient="true">22575651</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC3405516</common:external-id-value>
+                    <common:external-id-normalized transient="true">3405516</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1016/j.febslet.2012.03.031</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1016/j.febslet.2012.03.031</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/22575651</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2012</common:year>
+                <common:month>04</common:month>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-05-24T01:12:09.394Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1371/journal.pone.0052962</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1371/journal.pone.0052962</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmid</common:external-id-type>
+                <common:external-id-value>23300834</common:external-id-value>
+                <common:external-id-normalized transient="true">23300834</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmc</common:external-id-type>
+                <common:external-id-value>PMC3531456</common:external-id-value>
+                <common:external-id-normalized transient="true">3531456</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="65383634" path="/0000-0002-4929-6119/work/65383634" visibility="public" display-index="1">
+            <common:created-date>2014-12-14T11:43:15.160Z</common:created-date>
+            <common:last-modified-date>2019-12-02T11:43:15.162Z</common:last-modified-date>
+            <common:source>
+                <common:source-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-orcid>
+                <common:source-name>Katherine Beckham</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Express your LOV: an engineered flavoprotein as a reporter for protein expression and purification.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>23300834</common:external-id-value>
+                    <common:external-id-normalized transient="true">23300834</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC3531456</common:external-id-value>
+                    <common:external-id-normalized transient="true">3531456</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1371/journal.pone.0052962</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1371/journal.pone.0052962</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/23300834</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2012</common:year>
+            </common:publication-date>
+            <work:journal-title>PloS One</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="14757311" path="/0000-0002-4929-6119/work/14757311" visibility="public" display-index="0">
+            <common:created-date>2014-12-14T08:42:58.153Z</common:created-date>
+            <common:last-modified-date>2022-05-24T01:12:09.394Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                    <common:path>0000-0002-9157-3431</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Europe PubMed Central</common:source-name>
+                <common:assertion-origin-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:assertion-origin-orcid>
+                <common:assertion-origin-name>Katherine Beckham</common:assertion-origin-name>
+            </common:source>
+            <work:title>
+                <common:title>Express your LOV: an engineered flavoprotein as a reporter for protein expression and purification.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>23300834</common:external-id-value>
+                    <common:external-id-normalized transient="true">23300834</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC3531456</common:external-id-value>
+                    <common:external-id-normalized transient="true">3531456</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1371/journal.pone.0052962</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1371/journal.pone.0052962</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/23300834</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2012</common:year>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-05-24T01:12:09.399Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>pmid</common:external-id-type>
+                <common:external-id-value>22384182</common:external-id-value>
+                <common:external-id-normalized transient="true">22384182</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1371/journal.pone.0032217</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1371/journal.pone.0032217</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmc</common:external-id-type>
+                <common:external-id-value>PMC3288085</common:external-id-value>
+                <common:external-id-normalized transient="true">3288085</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="65383646" path="/0000-0002-4929-6119/work/65383646" visibility="public" display-index="1">
+            <common:created-date>2014-12-14T11:43:37.041Z</common:created-date>
+            <common:last-modified-date>2019-12-02T11:43:37.044Z</common:last-modified-date>
+            <common:source>
+                <common:source-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-orcid>
+                <common:source-name>Katherine Beckham</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Structural characterisation of Tpx from Yersinia pseudotuberculosis reveals insights into the binding of salicylidene acylhydrazide compounds.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>22384182</common:external-id-value>
+                    <common:external-id-normalized transient="true">22384182</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC3288085</common:external-id-value>
+                    <common:external-id-normalized transient="true">3288085</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1371/journal.pone.0032217</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1371/journal.pone.0032217</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/22384182</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2012</common:year>
+            </common:publication-date>
+            <work:journal-title>PloS One</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="14757312" path="/0000-0002-4929-6119/work/14757312" visibility="public" display-index="0">
+            <common:created-date>2014-12-14T08:42:58.156Z</common:created-date>
+            <common:last-modified-date>2022-05-24T01:12:09.399Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                    <common:path>0000-0002-9157-3431</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Europe PubMed Central</common:source-name>
+                <common:assertion-origin-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:assertion-origin-orcid>
+                <common:assertion-origin-name>Katherine Beckham</common:assertion-origin-name>
+            </common:source>
+            <work:title>
+                <common:title>Structural characterisation of Tpx from Yersinia pseudotuberculosis reveals insights into the binding of salicylidene acylhydrazide compounds.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>22384182</common:external-id-value>
+                    <common:external-id-normalized transient="true">22384182</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC3288085</common:external-id-value>
+                    <common:external-id-normalized transient="true">3288085</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1371/journal.pone.0032217</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1371/journal.pone.0032217</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/22384182</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2012</common:year>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-05-24T01:12:09.405Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>pmid</common:external-id-type>
+                <common:external-id-value>21724850</common:external-id-value>
+                <common:external-id-normalized transient="true">21724850</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1074/jbc.M111.233858</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1074/jbc.m111.233858</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmc</common:external-id-type>
+                <common:external-id-value>PMC3191033</common:external-id-value>
+                <common:external-id-normalized transient="true">3191033</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="65383666" path="/0000-0002-4929-6119/work/65383666" visibility="public" display-index="1">
+            <common:created-date>2014-12-14T11:44:01.007Z</common:created-date>
+            <common:last-modified-date>2019-12-02T11:44:01.009Z</common:last-modified-date>
+            <common:source>
+                <common:source-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-orcid>
+                <common:source-name>Katherine Beckham</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Identification of bacterial target proteins for the salicylidene acylhydrazide class of virulence-blocking compounds.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>21724850</common:external-id-value>
+                    <common:external-id-normalized transient="true">21724850</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC3191033</common:external-id-value>
+                    <common:external-id-normalized transient="true">3191033</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1074/jbc.M111.233858</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1074/jbc.m111.233858</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/21724850</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2011</common:year>
+                <common:month>08</common:month>
+            </common:publication-date>
+            <work:journal-title>The Journal of biological chemistry</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="14757313" path="/0000-0002-4929-6119/work/14757313" visibility="public" display-index="0">
+            <common:created-date>2014-12-14T08:42:58.160Z</common:created-date>
+            <common:last-modified-date>2022-05-24T01:12:09.405Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                    <common:path>0000-0002-9157-3431</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Europe PubMed Central</common:source-name>
+                <common:assertion-origin-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:assertion-origin-orcid>
+                <common:assertion-origin-name>Katherine Beckham</common:assertion-origin-name>
+            </common:source>
+            <work:title>
+                <common:title>Identification of bacterial target proteins for the salicylidene acylhydrazide class of virulence-blocking compounds.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>21724850</common:external-id-value>
+                    <common:external-id-normalized transient="true">21724850</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC3191033</common:external-id-value>
+                    <common:external-id-normalized transient="true">3191033</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1074/jbc.M111.233858</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1074/jbc.m111.233858</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/21724850</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2011</common:year>
+                <common:month>08</common:month>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-05-24T01:12:09.411Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>pmc</common:external-id-type>
+                <common:external-id-value>PMC2998365</common:external-id-value>
+                <common:external-id-normalized transient="true">2998365</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmid</common:external-id-type>
+                <common:external-id-value>21139206</common:external-id-value>
+                <common:external-id-normalized transient="true">21139206</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1107/S1744309110039679</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1107/s1744309110039679</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="65383676" path="/0000-0002-4929-6119/work/65383676" visibility="public" display-index="1">
+            <common:created-date>2014-12-14T11:44:19.179Z</common:created-date>
+            <common:last-modified-date>2019-12-02T11:44:19.181Z</common:last-modified-date>
+            <common:source>
+                <common:source-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-orcid>
+                <common:source-name>Katherine Beckham</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Expression, purification, crystallization and initial X-ray diffraction analysis of thiol peroxidase from Yersinia pseudotuberculosis.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>21139206</common:external-id-value>
+                    <common:external-id-normalized transient="true">21139206</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC2998365</common:external-id-value>
+                    <common:external-id-normalized transient="true">2998365</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1107/S1744309110039679</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1107/s1744309110039679</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/21139206</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2010</common:year>
+                <common:month>12</common:month>
+            </common:publication-date>
+            <work:journal-title>Section F, Structural biology and crystallization communications</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="14757314" path="/0000-0002-4929-6119/work/14757314" visibility="public" display-index="0">
+            <common:created-date>2014-12-14T08:42:58.164Z</common:created-date>
+            <common:last-modified-date>2022-05-24T01:12:09.411Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                    <common:path>0000-0002-9157-3431</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Europe PubMed Central</common:source-name>
+                <common:assertion-origin-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:assertion-origin-orcid>
+                <common:assertion-origin-name>Katherine Beckham</common:assertion-origin-name>
+            </common:source>
+            <work:title>
+                <common:title>Expression, purification, crystallization and initial X-ray diffraction analysis of thiol peroxidase from Yersinia pseudotuberculosis.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>21139206</common:external-id-value>
+                    <common:external-id-normalized transient="true">21139206</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>pmc</common:external-id-type>
+                    <common:external-id-value>PMC2998365</common:external-id-value>
+                    <common:external-id-normalized transient="true">2998365</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1107/S1744309110039679</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1107/s1744309110039679</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/21139206</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2010</common:year>
+                <common:month>12</common:month>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+    <activities:group>
+        <common:last-modified-date>2022-05-24T01:12:09.416Z</common:last-modified-date>
+        <common:external-ids>
+            <common:external-id>
+                <common:external-id-type>doi</common:external-id-type>
+                <common:external-id-value>10.1016/j.pep.2009.12.005</common:external-id-value>
+                <common:external-id-normalized transient="true">10.1016/j.pep.2009.12.005</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+            <common:external-id>
+                <common:external-id-type>pmid</common:external-id-type>
+                <common:external-id-value>20006708</common:external-id-value>
+                <common:external-id-normalized transient="true">20006708</common:external-id-normalized>
+                <common:external-id-relationship>self</common:external-id-relationship>
+            </common:external-id>
+        </common:external-ids>
+        <work:work-summary put-code="65383689" path="/0000-0002-4929-6119/work/65383689" visibility="public" display-index="1">
+            <common:created-date>2014-12-14T11:44:34.910Z</common:created-date>
+            <common:last-modified-date>2019-12-02T11:44:34.912Z</common:last-modified-date>
+            <common:source>
+                <common:source-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-orcid>
+                <common:source-name>Katherine Beckham</common:source-name>
+            </common:source>
+            <work:title>
+                <common:title>Formate-nitrite transporters: optimisation of expression, purification and analysis of prokaryotic and eukaryotic representatives.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>20006708</common:external-id-value>
+                    <common:external-id-normalized transient="true">20006708</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1016/j.pep.2009.12.005</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1016/j.pep.2009.12.005</common:external-id-normalized>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/20006708</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2010</common:year>
+                <common:month>06</common:month>
+            </common:publication-date>
+            <work:journal-title> Protein expression and purification</work:journal-title>
+        </work:work-summary>
+        <work:work-summary put-code="14757315" path="/0000-0002-4929-6119/work/14757315" visibility="public" display-index="0">
+            <common:created-date>2014-12-14T08:42:58.168Z</common:created-date>
+            <common:last-modified-date>2022-05-24T01:12:09.416Z</common:last-modified-date>
+            <common:source>
+                <common:source-client-id>
+                    <common:uri>https://orcid.org/client/0000-0002-9157-3431</common:uri>
+                    <common:path>0000-0002-9157-3431</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:source-client-id>
+                <common:source-name>Europe PubMed Central</common:source-name>
+                <common:assertion-origin-orcid>
+                    <common:uri>https://orcid.org/0000-0002-4929-6119</common:uri>
+                    <common:path>0000-0002-4929-6119</common:path>
+                    <common:host>orcid.org</common:host>
+                </common:assertion-origin-orcid>
+                <common:assertion-origin-name>Katherine Beckham</common:assertion-origin-name>
+            </common:source>
+            <work:title>
+                <common:title>Formate-nitrite transporters: optimisation of expression, purification and analysis of prokaryotic and eukaryotic representatives.</common:title>
+            </work:title>
+            <common:external-ids>
+                <common:external-id>
+                    <common:external-id-type>pmid</common:external-id-type>
+                    <common:external-id-value>20006708</common:external-id-value>
+                    <common:external-id-normalized transient="true">20006708</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+                <common:external-id>
+                    <common:external-id-type>doi</common:external-id-type>
+                    <common:external-id-value>10.1016/j.pep.2009.12.005</common:external-id-value>
+                    <common:external-id-normalized transient="true">10.1016/j.pep.2009.12.005</common:external-id-normalized>
+                    <common:external-id-url></common:external-id-url>
+                    <common:external-id-relationship>self</common:external-id-relationship>
+                </common:external-id>
+            </common:external-ids>
+            <common:url>http://europepmc.org/abstract/med/20006708</common:url>
+            <work:type>journal-article</work:type>
+            <common:publication-date>
+                <common:year>2010</common:year>
+                <common:month>06</common:month>
+            </common:publication-date>
+        </work:work-summary>
+    </activities:group>
+</activities:works>
